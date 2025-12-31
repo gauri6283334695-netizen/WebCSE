@@ -48,7 +48,6 @@ HashedVoice/
 - One wallet → one vote (enforced on-chain)
 - Live vote count
 - Voting open/close control
-- Result & winner display
 - Backend + blockchain verification
 
 ---
