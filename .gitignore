@@ -1,0 +1,15 @@
+node_modules/
+.env
+.DS_Store
+*.log
+
+Backend/node_modules/
+Backend/.env
+
+Frontend/node_modules/
+Frontend/.next/
+
+Blockchain/artifacts/
+Blockchain/cache/
+Blockchain/node_modules/
+Blockchain/ignition/deployments/
