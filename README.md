@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🗳️ HashedVoice – Blockchain Based Voting System
 
 HashedVoice is a decentralized voting application built using **Blockchain (Ethereum / Hardhat)**, **Next.js**, and **Node.js (Express)**.  
@@ -73,3 +74,6 @@ cd Frontend
 npm install
 npm run dev
 
+=======
+# WebCSE
+>>>>>>> 4c1db111690f529c84a76f84f9be3d6b9be277bb
