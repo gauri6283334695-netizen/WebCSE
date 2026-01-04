@@ -56,11 +56,9 @@ app.post("/voter/register", async (req, res) => {
   }
   
   try {
-    // New voter → mark eligible on blockchain
     const tx = await contract.setEligible(walletAddress, true);
     await tx.wait();
 
-    // Save new voter in DB
     await Voter.create({
       name,
       admission,
