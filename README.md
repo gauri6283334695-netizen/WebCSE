@@ -2,7 +2,7 @@
 A Blockchain-based Secure Voting System
 
 ##  Problem Statement
-Traditional voting systems suffer from issues such as lack of transparency, vote tampering, duplicate voting, and centralized control. This project aims to build a secure, transparent, and tamper-proof voting system using blockchain technology while maintaining a simple web-based user experience.
+Usually voting systems suffer from issues such as lack of transparency, vote tampering, duplicate voting, and centralized control. This project aims to build a secure, transparent voting system using blockchain technology while maintaining a simple web-based user experience.
 
 ##  Project Overview
 HashedVoice is a full-stack decentralized voting application where:
@@ -15,8 +15,6 @@ The system ensures:
 - One person → one vote
 - No duplicate voting
 - Complete auditability
-
----
 
 ##  Tech Stack
 
@@ -37,8 +35,6 @@ The system ensures:
 - Hardhat
 - Local Hardhat Network
 - MetaMask
-
----
 
 ##  Features
 
