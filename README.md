@@ -1,24 +1,24 @@
-<<<<<<< HEAD
-# 🗳️ HashedVoice – Blockchain Based Voting System
+# HashedVoice 
+A Blockchain-based Secure Voting System
 
-HashedVoice is a decentralized voting application built using **Blockchain (Ethereum / Hardhat)**, **Next.js**, and **Node.js (Express)**.  
-It ensures transparent, secure, and one-person-one-vote elections.
+##  Problem Statement
+Traditional voting systems suffer from issues such as lack of transparency, vote tampering, duplicate voting, and centralized control. This project aims to build a secure, transparent, and tamper-proof voting system using blockchain technology while maintaining a simple web-based user experience.
+
+##  Project Overview
+HashedVoice is a full-stack decentralized voting application where:
+- Voters register using their wallet address and admission number
+- Voter eligibility is verified via backend logic and blockchain
+- Votes are recorded immutably on the blockchain
+- Results are calculated transparently once voting closes
+
+The system ensures:
+- One person → one vote
+- No duplicate voting
+- Complete auditability
 
 ---
 
-## 📁 Project Structure
-HashedVoice/
-│
-├── Backend/ # Express + MongoDB backend
-├── Blockchain/ # Smart contracts (Hardhat)
-├── Frontend/ # Next.js frontend
-├── .gitignore
-└── README.md
-
-
----
-
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - Next.js (App Router)
@@ -29,50 +29,56 @@ HashedVoice/
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Mongoose)
+- MongoDB + Mongoose
 - Ethers.js
 
 ### Blockchain
 - Solidity
 - Hardhat
-- Hardhat Ignition
-- Ethereum (Local Hardhat Network)
+- Local Hardhat Network
+- MetaMask
 
 ---
 
-## 🔐 Core Features
+##  Features
 
-- Wallet-based voter registration
-- Regex-based admission validation
-- Admin-controlled eligibility
-- One wallet → one vote (enforced on-chain)
-- Live vote count
-- Voting open/close control
-- Backend + blockchain verification
+###  Voter
+- Wallet connection using MetaMask
+- Admission number validation using regex
+- Automatic eligibility verification
+- Vote once only
+- Real-time vote count visibility
+- Rejected at registration if already voted
 
----
+###  Admin
+- Add candidates
+- Open voting
+- Close voting
+- View final results
 
-## 🚀 How to Run the Project
+###  Blockchain Security
+- Immutable vote storage
+- Eligibility enforced via smart contract
+- Vote-once logic enforced at contract level
 
-### Blockchain (Hardhat)
+##  Setup and installation instructions
 
-cd Blockchain
-npm install
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/HashedVoiceModule.js --network localhost <!-- to deploy contract (on new terminal) -->
+git clone https://github.com/gauri6283334695-netizen/WebCSE
+cd HashedVoice
 
-### Backend
+###  Backend
+- cd Backend
+- npm install
+- npm run start
 
-cd Backend 
-npm install 
-npm run start
+###  Blockchain
+- cd Blockchain
+- npm install
+- npx hardhat node
+- npx hardhat ignition deploy ./ignition/modules/HashedVoiceModule.js --network localhost
 
-### Frontend 
+###  Frontend
+- cd Frontend
+- npm install
+- npm run dev
 
-cd Frontend
-npm install
-npm run dev
-
-=======
-# WebCSE
->>>>>>> 4c1db111690f529c84a76f84f9be3d6b9be277bb
