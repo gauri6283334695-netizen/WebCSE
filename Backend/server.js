@@ -13,7 +13,6 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Load ABI safely
 const ABI_PATH = path.join(__dirname, "../Frontend/src/lib/hashedVoice.json");
 const ABI = JSON.parse(fs.readFileSync(ABI_PATH, "utf-8"));
 
