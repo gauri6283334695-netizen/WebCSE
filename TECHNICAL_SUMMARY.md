@@ -71,6 +71,9 @@ HashedVoice follows a three-layer architecture:
   - Code structure understanding
   - Improve UI 
 
+##  Youtube videos
+- for learning solidity, concept of hardhat, database connection and react that used in project
+
 ##  Mentor Guidance
 - Mentors provided:
   - Conceptual guidance
