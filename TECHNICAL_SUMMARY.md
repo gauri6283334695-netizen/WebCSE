@@ -78,7 +78,7 @@ HashedVoice follows a three-layer architecture:
 - Mentors provided:
   - Conceptual guidance
   - Debugging hints
-  - Architectural suggestions
+  - Architectural suggestion
 
 ##  APIs Used
 - Ethereum JSON-RPC (local Hardhat network)
